@@ -1,0 +1,106 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-1{
+	width: 8.33333%;
+	float: left;
+}
+.col-md-2{
+	width: 16.6666%;
+	float: left;
+}
+.col-md-3{
+	width: 24.9999%;
+	float: left;
+}
+.col-md-4{
+	width: 33.3332%;
+	float: left;
+}
+.col-md-5{
+	width: 41.6665%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+.col-md-7{
+	width: 58.3331%;
+	float: left;
+}
+.col-md-8{
+	width: 66.6664%;
+	float: left;
+}
+.col-md-9{
+	width: 74.9998%;
+	float: left;
+}	
+.col-md-10{
+	width: 83.3333%;
+	float: left;
+}
+.col-md-11{
+	width: 91.6663%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+
+/*  Header section CSS codes */
+header{
+	background: #f7f7f7;
+	width: 100%;
+	float: left;
+	padding: 20px 0;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 45px 15px;
+	font-size: 20px;
+}
+.logo{
+	width: 150px;
+}
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #00AEEF;
+}
+nav ul li a:hover{
+	color: #E76241;
+}
+.active{
+	color: #E76241;
+}
+.body-section{
+	width: 100%;
+	float: left;;
+	padding: 50px 0;
+}
+.body-section h1{
+	text-align: center;
+}
